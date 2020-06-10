@@ -6,6 +6,8 @@ const debug = require('ghost-ignition').debug('boot:index');
 // Sentry must be initialised early on
 const sentry = require('./core/shared/sentry');
 
+console.log('log me');
+
 debug('First requires...');
 
 const ghost = require('./core');
